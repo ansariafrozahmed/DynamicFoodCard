@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #212121;
+}
+.header {
+    /* height: 20vh; */
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+.header h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+.itemsection {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: #FDD844;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* color: #000 !important; */
+    /* justify-content: top; */
+    gap: 1vw;
+    padding: 20px;
+    margin: 10px;
+}
+.card img {
+    height: 150px;
+    border-radius: 10px;
+}
+.card h1 {
+    font-size: 2rem;
+    /* color: white; */
+}
+.card p {
+    text-align: center;
+    font-size: 1rem;
+    /* color: white; */
+}
+
+.errorsection {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: green;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+.errorsection h1 {
+    font-size: 3rem;
+    color: white;
+    text-transform: uppercase;
+}
